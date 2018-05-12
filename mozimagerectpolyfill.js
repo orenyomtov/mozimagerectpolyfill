@@ -40,8 +40,6 @@
 
         var {width, height} = await getImageDimentions(dataUrl);
 
-        console.log(width, height, url, top, right, bottom, left);
-
         var x = -percentageToPixels(left, width);
         var y = -percentageToPixels(top, height);
 
