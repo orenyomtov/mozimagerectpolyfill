@@ -1,4 +1,4 @@
-# mozimagerectpolyfill &mdash; -moz-image-rect polyfill
+# mozimagerectpolyfill: -moz-image-rect polyfill
 [-moz-image-rect](https://developer.mozilla.org/en-US/docs/Web/CSS/-moz-image-rect) is a CSS feature only implemented by Firefox.
 
 This project is a javascript polyfill making it available for all other browsers.
@@ -23,3 +23,7 @@ data:image/svg+xml;utf8,<svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"
 }
 ```
 
+## Contributing
+This project is pretty much at a proof of concept level.
+
+Pull requests are more than welcome.
