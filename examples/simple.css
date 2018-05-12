@@ -1,3 +1,25 @@
 body {
-    background-image: -moz-image-rect(url(test.gif), 0, 50%, 50%, 0);
+    background-image: -moz-image-rect(url(test-pattern.gif), 0, 50%, 50%, 0);
+}
+
+.content {
+    background-color: rgba(0,200,0,0.4);
+    width: 50%;
+    margin: 15vh auto 0;
+    height: 70vh;
+    padding: 25px;
+}
+
+.without {
+    background-image: url(test-pattern.gif);
+    height: 150px;
+    width: 200px;
+    background-size: 200px;
+}
+
+.with {
+    background-image: -moz-image-rect(url(test-pattern.gif), 0, 50%, 50%, 0);
+    height: 150px;
+    width: 200px;
+    background-size: 200px;
 }

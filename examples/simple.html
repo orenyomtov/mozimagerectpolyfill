@@ -7,8 +7,17 @@
     <link type="text/css" href="simple.css" rel="stylesheet">
 </head>
 <body>
-<script src="https://philipwalton.github.io/polyfill/lib/jquery.js"></script>
-<script src="https://philipwalton.github.io/polyfill/dist/polyfill.js"></script>
-<script src="../mozimagerectpolyfill.js"></script>
+    <div class="content">
+        <pre>background-image: url(test-pattern.gif);</pre>
+        <div class="without"></div>
+
+        <br/><br/><br/>
+
+        <pre>background-image: -moz-image-rect(url(test-pattern.gif), 0, 50%, 50%, 0);</pre>
+        <div class="with"></div>
+    </div>
+    <script src="https://philipwalton.github.io/polyfill/lib/jquery.js"></script>
+    <script src="https://philipwalton.github.io/polyfill/dist/polyfill.js"></script>
+    <script src="../mozimagerectpolyfill.js"></script>
 </body>
 </html>
